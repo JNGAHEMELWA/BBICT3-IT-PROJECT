@@ -1,8 +1,107 @@
-<html>
-  <head>
-    <title>BBICT 3 PROJECT</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - E-Logbook</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #066ee7;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #044cb5;
+    }
+    nav a {
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #033a8c;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #066ee7, #0a8df5);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px 0;
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+    footer {
+      background: #066ee7;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
   <body>
-    <h1>Hello World</h1>
-  </body>
+  <header>
+    <h2>Electronic Logbook</h2>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">Login</a>
+    <a href="#">Register</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to the E-Logbook</h1>
+    <p>Track your fieldwork easily and efficiently.</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Daily Reports</h3>
+      <p>Submit and view your daily fieldwork reports.</p>
+    </div>
+    <div class="card">
+      <h3>Weekly Summaries</h3>
+      <p>Summarize your weekly activities with ease.</p>
+    </div>
+    <div class="card">
+      <h3>Supervisor Feedback</h3>
+      <p>Receive instant feedback from your supervisors.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Moshi Cooperative University - E-Logbook</p>
+  </footer>
+
+</body>
 </html>
